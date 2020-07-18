@@ -149,10 +149,10 @@ jQuery(document).on('ready', function ($) {
     });
 
     client_photo.on('translate.owl.carousel', function (property) {
-        $('.client-details-content .owl-dot:eq(' + property.page.index + ')').click();
+        $('.clients-details-content .owl-dot:eq(' + property.page.index + ')').click();
     });
     client_photo2.on('translate.owl.carousel', function (property) {
-        $('.client-photo-list .owl-dot:eq(' + property.page.index + ')').click();
+        $('.clients-photo-list .owl-dot:eq(' + property.page.index + ')').click();
     });
 
     /*----------------------------
@@ -171,7 +171,7 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         TESTMONIAL SLIDER
     -----------------------------*/
-    $('.client-list').owlCarousel({
+    $('.clients-list').owlCarousel({
         merge: true,
         smartSpeed: 1000,
         loop: true,
