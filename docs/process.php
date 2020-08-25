@@ -1,7 +1,7 @@
 <?php
 // Configure your Subject Prefix and Recipient here
-$subjectPrefix = '[Contact Form Website]';
-$emailTo       = '<mohd.sadiq@DotEvolve.co.in>';
+$subjectPrefix = '[diversified.co.tz Website Contact Form]';
+$emailTo       = '<info@diversified.co.tz>';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
